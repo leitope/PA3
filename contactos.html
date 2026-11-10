@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos - Fruti Fresh</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="shortcut icon" href="imagenes/logos.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <header>
+            <nav>
+                <h1>Fruti Fresh</h1>
+
+                <ul class="menu">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                    <li><a href="nosotros.html"><i class="fa-solid fa-users"></i> Nosotros</a></li>
+                    <li><a href="blog.html"><i class="fa-solid fa-circle-user"></i> Blog</a></li>
+                    <li><a href="galeria.html"><i class="fa-solid fa-image"></i> Galería</a></li>
+                    <li><a href="video.html"><i class="fa-solid fa-video"></i> Videos</a></li>
+                    <li><a href="contactos.html"><i class="fa-solid fa-envelope"></i> Contactos</a></li>
+                  
+                </ul>
+            </nav>
+        </header>
+
+        <main class="pagina-contactos">
+
+            <h2>Contáctanos</h2>
+            <p>En Fruti Fresh queremos conocer tu opinión. ¡Escríbenos!</p>
+
+            <section class="tabla-contactos">
+
+                <h2>Información de contacto</h2>
+
+                <table>
+                    <tr>
+                        <th colspan="2">FRUTI FRESH</th>
+                    </tr>
+                    <tr>
+                        <td>Correo electrónico</td>
+                        <td>contacto@frutifresh.com</td>
+                    </tr>
+                    <tr>
+                        <td>Horario de atención</td>
+                        <td>Lunes a sábado</td>
+                    </tr>
+                    <tr>
+                        <td>Horario</td>
+                        <td>9:00 a.m. - 6:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Redes sociales</td>
+                        <td>Facebook: Fruti Fresh</td>
+                    </tr>
+                    <tr>
+                        <td>Instagram: @frutifresh</td>
+                    </tr>
+                </table>
+
+            </section>
+
+            <section class="formulario-contacto">
+
+                <h2>Envíanos un mensaje</h2>
+
+                <form action="#" method="post">
+
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre"
+                    placeholder="Escribe tu nombre" required>
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo"
+                    placeholder="ejemplo@correo.com" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"
+                    placeholder="Ingresa tu teléfono">
+
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto"
+                    placeholder="Motivo de tu mensaje" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje"
+                    rows="5" placeholder="Escribe tu mensaje aquí..."
+                    required></textarea>
+
+                    <button type="submit">Enviar mensaje</button>
+
+                </form>
+
+            </section>
+
+            <section class="ubicacion">
+
+                <h2>Encuéntranos</h2>
+                <p>Conoce nuestra ubicación en el mapa.</p>
+
+                <iframe
+                    src="https://www.google.com/maps?q=Lima,Peru&output=embed"
+                    width="100%"
+                    height="350"
+                    style="border:0;"
+                    loading="lazy"
+                    title="Mapa de ubicación de Fruti Fresh">
+                </iframe>
+
+            </section>
+
+        </main>
+
+        <footer class="contactos-footer">
+            <ul class="redes">
+                <li><a href="https://x.com/MaxiFruta" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/bebidas.Naturales.NISFRUT/?locale=es_LA" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/jugos.maxifruta/?hl=es" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.tiktok.com/@brendagonzalesr/video/7696164783921401109" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+</body>
+</html>
